@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'javac Simple.java'
+                bat 'javac First.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'java Simple'
+                bat 'java First'
             }
         }
     }
